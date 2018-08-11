@@ -1,10 +1,8 @@
 html, body {
-    //color: #00300;
+    /* color: #00300; */
     background: #ffffff url("../static/tiedye_lineargrad.jpg") top center no-repeat ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #site-container {
