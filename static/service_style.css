@@ -38,6 +38,6 @@ html, body {
 }
 
 html.accessible * {
-    font-family: "Comic Sans MS", Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     background-image: none;
 }
