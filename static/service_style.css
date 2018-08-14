@@ -1,8 +1,17 @@
 html, body {
     /* color: #00300; */
     background: #ffffff url("../static/tiedye_lineargrad.jpg") top center no-repeat ;
-    background-size: cover;
-    background-attachment: fixed;
+}
+
+html, body {
+    background-position: top left;
+    background-size: 120%;
+}
+@media (min-width: 576px) {
+    html, body {
+        background-size: cover;
+        background-attachment: fixed;
+    }
 }
 
 #site-container {
