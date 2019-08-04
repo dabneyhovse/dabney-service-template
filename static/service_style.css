@@ -46,7 +46,7 @@ html, body {
     padding: 0 2em 2em;
 }
 
-html.accessible * {
+.accessible {
     font-family: Helvetica, sans-serif;
     background-image: none;
 }

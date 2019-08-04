@@ -1,9 +1,9 @@
 $(function() {
     function setAccessibility(val) {
         if (val) {
-            $(":root").addClass("accessible");
+            $("*:not(.accessible-exclude)").addClass("accessible");
         } else {
-            $(":root").removeClass("accessible");
+            $("*").removeClass("accessible");
         }
         localStorage.setItem("accessibilityMode", val)
     }
